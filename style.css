@@ -1,0 +1,39 @@
+#ab
+{
+    background-color: aquamarine;
+}
+#logo{
+    width: 15%;
+}
+.bg-theme {
+    background: url(./cover\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.bg {
+    background-color: black;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
+@media (min-width: 576px){
+    .jumbotron{
+        padding: 4rem 2rem;
+
+    }
+}
+.gototop {
+    position: fixed;
+    left: 1450px;
+    bottom: 20px;
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+}
+.social {
+    transform: scale(1);
+    transform-origin: scale(0.8);
+    transition-duration: 0.8s;
+}
